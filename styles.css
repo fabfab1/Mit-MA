@@ -1,0 +1,80 @@
+/*
+ * style.css for EnCAB
+ *
+ */
+
+
+html {
+    font-family: "Verdana", verdana, Sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+body {
+    background-color: #add8e6; /* LightBlue: #add8e6 rgb(173, 216, 230) */
+    margin: 20px 0;
+    padding: 0 10px;
+    line-height: 1.3;
+    font-size: 16px;
+    color: black; /* #222; */
+}
+
+h1,h2,h3{
+        font-family: "Verdana", verdana, Sans-serif;
+	line-height:1.2
+}
+
+h4,h5,h6{
+        font-family: "Verdana", verdana, Sans-serif;
+}
+
+a:link    { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover   { color: #06e; }
+a:active  { color: #f00; }
+
+img {
+    max-width: 100%;
+}
+
+p{
+    font-family: "Verdana", verdana, Sans-serif;
+    padding:0% 7%;
+    text-align: justify;
+    text-justify: inter-word;
+     }
+
+table.data {
+    text-align: justify;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #c4e3ed; /* or #add8e6 */
+}
+table.data > tr > td, table.data > tbody > tr > td {
+    border: 1px solid #63b4cf;
+    padding: 5px;
+}
+table.data > tr:nth-child(odd), table.data > tbody > tr:nth-child(odd) {
+    background-color: #8ac7db;
+}
+
+td.col-1, td.col-3 { width: 15%; }
+td.col-2, td.col-4 { width: 35%; }
+
+
+.AI-Statement {
+    /* font-size: 18px; */
+    /* font-weight: bold;*/
+    /* font-style: italic; */
+}
+.AI-Statement-input {
+
+}
+.AI-Math {
+
+}
+.AI-Math-input {
+
+}
