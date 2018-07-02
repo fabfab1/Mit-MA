@@ -36,8 +36,19 @@ a:visited { color: #551a8b; }
 a:hover   { color: #06e; }
 a:active  { color: #f00; }
 
-img {
-    max-width: 100%;
+img.tbl1 {
+    height: 90%;
+    width: 90%;
+}
+
+img.tbl2 {
+    height: 45%;
+    width: 45%;
+}
+
+img.tbl3 {
+    height: 31%;
+    width: 31%;
 }
 
 p{
